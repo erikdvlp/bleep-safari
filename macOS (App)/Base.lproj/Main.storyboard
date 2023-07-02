@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="fZ9-vk-0NV">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="NSView safe area layout guides" minToolsVersion="12.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Application-->
+        <scene sceneID="JPo-4y-FX3">
+            <objects>
+                <application id="hnw-xV-0zn" sceneMemberID="viewController">
+                    <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+                        <items>
+                            <menuItem title="Bleep" id="1Xt-HY-uBw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Bleep" systemMenu="apple" id="uQy-DD-JDr">
+                                    <items>
+                                        <menuItem title="About bleep-safari" id="5kV-Vb-QxS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                                        <menuItem title="Hide bleep-safari" keyEquivalent="h" id="Olw-nP-bQN">
+                                            <connections>
+                                                <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Show All" id="Kd2-mp-pUS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Dhg-Le-xox"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                                        <menuItem title="Quit bleep-safari" keyEquivalent="q" id="4sb-4s-VLi">
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Help" id="wpr-3q-Mcd">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
+                                    <items>
+                                        <menuItem title="bleep-safari Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                            <connections>
+                                                <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
+                    </connections>
+                </application>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="bleep_safari" customModuleProvider="target"/>
+                <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+                <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-231" y="-119"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="lh8-1c-m2L">
+            <objects>
+                <windowController id="fZ9-vk-0NV" sceneMemberID="viewController">
+                    <window key="window" title="Filters" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="c0i-F0-xQ3">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" fullSizeContentView="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="425" y="473" width="700" height="400"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1440"/>
+                        <view key="contentView" id="Nlt-Om-sHl">
+                            <rect key="frame" x="0.0" y="0.0" width="700" height="400"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </view>
+                        <toolbar key="toolbar" implicitIdentifier="09D11707-F4A3-4FD5-970E-AC5832E91C2B" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="mcU-SJ-1fR">
+                            <allowedToolbarItems>
+                                <toolbarItem implicitItemIdentifier="9A3A0AA6-612E-4570-95B1-A837B384133F" label="Add" paletteLabel="Toolbar Item" tag="-1" image="plus" catalog="system" bordered="YES" id="4FI-Gb-mYI">
+                                    <size key="minSize" width="26" height="25"/>
+                                    <size key="maxSize" width="26" height="25"/>
+                                </toolbarItem>
+                            </allowedToolbarItems>
+                            <defaultToolbarItems>
+                                <toolbarItem reference="4FI-Gb-mYI"/>
+                            </defaultToolbarItems>
+                        </toolbar>
+                        <connections>
+                            <outlet property="delegate" destination="fZ9-vk-0NV" id="iQo-w4-QGe"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="PoY-N8-6sN" kind="relationship" relationship="window.shadowedContentViewController" id="RaB-No-5bR"/>
+                    </connections>
+                </windowController>
+                <customObject id="mPc-c6-a1J" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="181"/>
+        </scene>
+        <!--Filters Split View Controller-->
+        <scene sceneID="kgW-dO-OdS">
+            <objects>
+                <splitViewController id="PoY-N8-6sN" customClass="Filters_SplitViewController" customModule="bleep_safari" customModuleProvider="target" sceneMemberID="viewController">
+                    <splitViewItems>
+                        <splitViewItem canCollapse="YES" holdingPriority="260" behavior="sidebar" id="n2T-Q3-raO"/>
+                        <splitViewItem id="n2N-b1-gBL"/>
+                    </splitViewItems>
+                    <splitView key="splitView" dividerStyle="thin" vertical="YES" id="04h-DV-KEb">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </splitView>
+                    <connections>
+                        <segue destination="ocZ-a7-Cp3" kind="relationship" relationship="splitItems" id="mKw-pf-CG4"/>
+                        <segue destination="Ryt-KN-a2q" kind="relationship" relationship="splitItems" id="cha-66-FBc"/>
+                    </connections>
+                </splitViewController>
+                <customObject id="6Ho-Mb-W7R" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="683" y="231"/>
+        </scene>
+        <!--Filters Menu View Controller-->
+        <scene sceneID="qbK-F5-wAF">
+            <objects>
+                <viewController id="ocZ-a7-Cp3" customClass="FiltersMenu_ViewController" customModule="bleep_safari" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="92K-DL-eyh">
+                        <rect key="frame" x="0.0" y="0.0" width="154" height="362"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="25" horizontalPageScroll="10" verticalLineScroll="25" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eS-GE-TH5">
+                                <rect key="frame" x="0.0" y="20" width="154" height="270"/>
+                                <clipView key="contentView" drawsBackground="NO" id="fmf-rJ-TYY">
+                                    <rect key="frame" x="0.0" y="0.0" width="154" height="270"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="sourceList" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" viewBased="YES" id="tql-Eq-rDd">
+                                            <rect key="frame" x="0.0" y="0.0" width="154" height="270"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <size key="intercellSpacing" width="17" height="8"/>
+                                            <color key="backgroundColor" name="_sourceListBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                            <tableColumns>
+                                                <tableColumn identifier="AutomaticTableColumnIdentifier.0" width="122" minWidth="40" maxWidth="1000" id="YN6-sE-B0H">
+                                                    <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
+                                                        <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                                    </tableHeaderCell>
+                                                    <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" title="Text Cell" id="VmK-hq-llX">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                                    <prototypeCellViews>
+                                                        <tableCellView identifier="filtersMenuCell" id="HcY-PT-yDi" customClass="FiltersMenu_TableCellView" customModule="bleep_safari" customModuleProvider="target">
+                                                            <rect key="frame" x="18" y="4" width="117" height="17"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                            <subviews>
+                                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yWs-f9-dP0">
+                                                                    <rect key="frame" x="0.0" y="1" width="117" height="16"/>
+                                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="List name" placeholderString="filtersMenuCell" id="5Go-yB-VaF">
+                                                                        <font key="font" metaFont="system"/>
+                                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                    </textFieldCell>
+                                                                </textField>
+                                                            </subviews>
+                                                            <connections>
+                                                                <outlet property="listName" destination="yWs-f9-dP0" id="IBr-ur-l0F"/>
+                                                                <outlet property="textField" destination="yWs-f9-dP0" id="foM-ph-6nk"/>
+                                                            </connections>
+                                                        </tableCellView>
+                                                    </prototypeCellViews>
+                                                </tableColumn>
+                                            </tableColumns>
+                                            <connections>
+                                                <outlet property="dataSource" destination="ocZ-a7-Cp3" id="GDi-4c-Kk4"/>
+                                                <outlet property="delegate" destination="ocZ-a7-Cp3" id="DGl-df-OAt"/>
+                                            </connections>
+                                        </tableView>
+                                    </subviews>
+                                    <nil key="backgroundColor"/>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="TH3-b3-M5S">
+                                    <rect key="frame" x="1" y="254" width="152" height="15"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="dlo-Hj-AuK">
+                                    <rect key="frame" x="224" y="17" width="15" height="102"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="3eS-GE-TH5" firstAttribute="top" secondItem="Mjd-at-lab" secondAttribute="top" id="Ahy-OF-QFq"/>
+                            <constraint firstItem="3eS-GE-TH5" firstAttribute="leading" secondItem="92K-DL-eyh" secondAttribute="leading" id="NBE-De-ChP"/>
+                            <constraint firstItem="Mjd-at-lab" firstAttribute="bottom" secondItem="3eS-GE-TH5" secondAttribute="bottom" id="nZi-v2-pEd"/>
+                            <constraint firstAttribute="trailing" secondItem="3eS-GE-TH5" secondAttribute="trailing" id="vp7-dc-02e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tf-Hh-MXV"/>
+                        <viewLayoutGuide key="layoutMargins" id="Mjd-at-lab"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="tql-Eq-rDd" id="7OI-he-47F"/>
+                    </connections>
+                </viewController>
+                <customObject id="2he-87-aJy" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1119" y="6"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KMq-pQ-JeH">
+            <objects>
+                <viewController id="Ryt-KN-a2q" sceneMemberID="viewController">
+                    <view key="view" id="SHh-7Y-s7j">
+                        <rect key="frame" x="0.0" y="0.0" width="536" height="258"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <viewLayoutGuide key="safeArea" id="UWC-oT-PmT"/>
+                        <viewLayoutGuide key="layoutMargins" id="Saf-8O-K1j"/>
+                    </view>
+                </viewController>
+                <customObject id="v3a-Ox-HT4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1319" y="410"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="plus" catalog="system" width="14" height="13"/>
+    </resources>
+</document>

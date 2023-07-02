@@ -1,0 +1,55 @@
+disabled_rules:
+  - nesting
+  - inclusive_language
+
+opt_in_rules:
+  - empty_count
+  - empty_string
+  - force_unwrapping
+  - indentation_width
+  - let_var_whitespace
+  - literal_expression_end_indentation
+  - multiline_arguments
+  - multiline_arguments_brackets
+  - multiline_parameters
+  - multiline_parameters_brackets
+  - operator_usage_whitespace
+  - overridden_super_call
+  - sorted_imports
+  - toggle_bool
+  - trailing_closure
+  - unneeded_parentheses_in_closure_argument
+
+included:
+  - iOS (App)
+  - iOS (Extension)
+  - macOS (App)
+  - macOS (Extension)
+  - Shared (App)
+  - Shared (Extension)
+
+force_cast: warning
+
+force_try:
+  severity: warning
+
+line_length: 150
+
+type_body_length:
+  warning: 300
+
+file_length:
+  warning: 500
+
+type_name:
+  allowed_symbols: ["_"]
+
+identifier_name:
+  min_length: 2
+  allowed_symbols: ["_"]
+  validates_start_with_lowercase: false
+
+switch_case_alignment:
+  indented_cases: true
+
+reporter: "xcode"
