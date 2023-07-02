@@ -1,0 +1,1121 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030D41DC29BF96430050ABED /* FiltersMenu_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030D41DB29BF96430050ABED /* FiltersMenu_ViewController.swift */; };
+		030D41DE29BF96ED0050ABED /* FiltersMenu_TableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030D41DD29BF96ED0050ABED /* FiltersMenu_TableCellView.swift */; };
+		030D41E029BFA61A0050ABED /* Filters_SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030D41DF29BFA61A0050ABED /* Filters_SplitViewController.swift */; };
+		0326100C29A7AF30000D515A /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0326100B29A7AF30000D515A /* LogManager.swift */; };
+		0326100D29A7AF30000D515A /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0326100B29A7AF30000D515A /* LogManager.swift */; };
+		0326100E29A7AF30000D515A /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0326100B29A7AF30000D515A /* LogManager.swift */; };
+		0326100F29A7AF30000D515A /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0326100B29A7AF30000D515A /* LogManager.swift */; };
+		0331B39129A5786B009BB181 /* Statistics_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331B39029A5786B009BB181 /* Statistics_ViewController.swift */; };
+		034AF0AB29A56DB400EE4E64 /* FilterStyle_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034AF0AA29A56DB400EE4E64 /* FilterStyle_TableViewController.swift */; };
+		0395931E29A438510020813A /* ViewList_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0395931D29A438510020813A /* ViewList_ViewController.swift */; };
+		039F1B2E29A3E73600A18C99 /* Filters_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F1B2D29A3E73600A18C99 /* Filters_TableViewController.swift */; };
+		039F1B3029A3E86C00A18C99 /* Settings_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F1B2F29A3E86C00A18C99 /* Settings_TableViewController.swift */; };
+		039F1B3729A3F0B200A18C99 /* Filters_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F1B3629A3F0B200A18C99 /* Filters_TableViewCell.swift */; };
+		039F1B3929A4045300A18C99 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F1B3829A4045300A18C99 /* List.swift */; };
+		039F1B3A29A4045300A18C99 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F1B3829A4045300A18C99 /* List.swift */; };
+		039F1B3B29A4045300A18C99 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F1B3829A4045300A18C99 /* List.swift */; };
+		039F1B3C29A4045300A18C99 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F1B3829A4045300A18C99 /* List.swift */; };
+		03A59EEA29A500990074F4DB /* ListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A59EE929A500990074F4DB /* ListManager.swift */; };
+		03A59EEB29A500990074F4DB /* ListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A59EE929A500990074F4DB /* ListManager.swift */; };
+		03A59EEC29A500990074F4DB /* ListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A59EE929A500990074F4DB /* ListManager.swift */; };
+		03A59EED29A500990074F4DB /* ListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A59EE929A500990074F4DB /* ListManager.swift */; };
+		03B2290F29A4113400DAF272 /* PresetLists_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B2290E29A4113400DAF272 /* PresetLists_TableViewController.swift */; };
+		03B2291129A413B900DAF272 /* PresetLists_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B2291029A413B900DAF272 /* PresetLists_TableViewCell.swift */; };
+		03B29ABE29A3E1B6009854DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B29ABD29A3E1B6009854DA /* AppDelegate.swift */; };
+		03B29AC029A3E1B6009854DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B29ABF29A3E1B6009854DA /* SceneDelegate.swift */; };
+		03B29AC329A3E1B6009854DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AC129A3E1B6009854DA /* LaunchScreen.storyboard */; };
+		03B29AC629A3E1B6009854DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AC429A3E1B6009854DA /* Main.storyboard */; };
+		03B29ACF29A3E1B6009854DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B29ACE29A3E1B6009854DA /* AppDelegate.swift */; };
+		03B29AD229A3E1B6009854DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AD029A3E1B6009854DA /* Main.storyboard */; };
+		03B29AD929A3E1B6009854DA /* bleep-safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 03B29AD829A3E1B6009854DA /* bleep-safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03B29AE329A3E1B6009854DA /* bleep-safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 03B29AE229A3E1B6009854DA /* bleep-safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03B29AE929A3E1B6009854DA /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AA429A3E1B4009854DA /* Main.html */; };
+		03B29AEA29A3E1B6009854DA /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AA429A3E1B4009854DA /* Main.html */; };
+		03B29AED29A3E1B6009854DA /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AA729A3E1B4009854DA /* Style.css */; };
+		03B29AEE29A3E1B6009854DA /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AA729A3E1B4009854DA /* Style.css */; };
+		03B29AEF29A3E1B6009854DA /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AA829A3E1B4009854DA /* Script.js */; };
+		03B29AF029A3E1B6009854DA /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AA829A3E1B4009854DA /* Script.js */; };
+		03B29AF329A3E1B6009854DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AAA29A3E1B5009854DA /* Assets.xcassets */; };
+		03B29AF429A3E1B6009854DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AAA29A3E1B5009854DA /* Assets.xcassets */; };
+		03B29AF529A3E1B6009854DA /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B29AAC29A3E1B5009854DA /* SafariWebExtensionHandler.swift */; };
+		03B29AF629A3E1B6009854DA /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B29AAC29A3E1B5009854DA /* SafariWebExtensionHandler.swift */; };
+		03B29AF729A3E1B6009854DA /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AAE29A3E1B5009854DA /* _locales */; };
+		03B29AF829A3E1B6009854DA /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AAE29A3E1B5009854DA /* _locales */; };
+		03B29AF929A3E1B6009854DA /* images in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AAF29A3E1B5009854DA /* images */; };
+		03B29AFA29A3E1B6009854DA /* images in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AAF29A3E1B5009854DA /* images */; };
+		03B29AFB29A3E1B6009854DA /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AB029A3E1B5009854DA /* manifest.json */; };
+		03B29AFC29A3E1B6009854DA /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AB029A3E1B5009854DA /* manifest.json */; };
+		03B29AFD29A3E1B6009854DA /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AB129A3E1B5009854DA /* background.js */; };
+		03B29AFE29A3E1B6009854DA /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AB129A3E1B5009854DA /* background.js */; };
+		03B29AFF29A3E1B6009854DA /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AB229A3E1B5009854DA /* content.js */; };
+		03B29B0029A3E1B6009854DA /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AB229A3E1B5009854DA /* content.js */; };
+		03B29B0129A3E1B6009854DA /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AB329A3E1B5009854DA /* popup.html */; };
+		03B29B0229A3E1B6009854DA /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AB329A3E1B5009854DA /* popup.html */; };
+		03B29B0329A3E1B6009854DA /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AB429A3E1B5009854DA /* popup.css */; };
+		03B29B0429A3E1B6009854DA /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AB429A3E1B5009854DA /* popup.css */; };
+		03B29B0529A3E1B6009854DA /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AB529A3E1B5009854DA /* popup.js */; };
+		03B29B0629A3E1B6009854DA /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 03B29AB529A3E1B5009854DA /* popup.js */; };
+		03D1C00729B7E2C900F06669 /* Tutorial_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1C00629B7E2C900F06669 /* Tutorial_ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03B29ADA29A3E1B6009854DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03B29A9E29A3E1B4009854DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B29AD729A3E1B6009854DA;
+			remoteInfo = "bleep-safari Extension (iOS)";
+		};
+		03B29AE429A3E1B6009854DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03B29A9E29A3E1B4009854DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B29AE129A3E1B6009854DA;
+			remoteInfo = "bleep-safari Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03B29B0C29A3E1B6009854DA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				03B29AD929A3E1B6009854DA /* bleep-safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B29B1329A3E1B6009854DA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				03B29AE329A3E1B6009854DA /* bleep-safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		030D41DB29BF96430050ABED /* FiltersMenu_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersMenu_ViewController.swift; sourceTree = "<group>"; };
+		030D41DD29BF96ED0050ABED /* FiltersMenu_TableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersMenu_TableCellView.swift; sourceTree = "<group>"; };
+		030D41DF29BFA61A0050ABED /* Filters_SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters_SplitViewController.swift; sourceTree = "<group>"; };
+		0326100B29A7AF30000D515A /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		0331B39029A5786B009BB181 /* Statistics_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics_ViewController.swift; sourceTree = "<group>"; };
+		034AF0AA29A56DB400EE4E64 /* FilterStyle_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterStyle_TableViewController.swift; sourceTree = "<group>"; };
+		0395931D29A438510020813A /* ViewList_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewList_ViewController.swift; sourceTree = "<group>"; };
+		039F1B2D29A3E73600A18C99 /* Filters_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters_TableViewController.swift; sourceTree = "<group>"; };
+		039F1B2F29A3E86C00A18C99 /* Settings_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings_TableViewController.swift; sourceTree = "<group>"; };
+		039F1B3229A3ED5600A18C99 /* bleep-safari (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "bleep-safari (iOS).entitlements"; sourceTree = "<group>"; };
+		039F1B3329A3ED9A00A18C99 /* bleep-safari Extension (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "bleep-safari Extension (iOS).entitlements"; sourceTree = "<group>"; };
+		039F1B3629A3F0B200A18C99 /* Filters_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters_TableViewCell.swift; sourceTree = "<group>"; };
+		039F1B3829A4045300A18C99 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		03A59EE929A500990074F4DB /* ListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListManager.swift; sourceTree = "<group>"; };
+		03B2290E29A4113400DAF272 /* PresetLists_TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetLists_TableViewController.swift; sourceTree = "<group>"; };
+		03B2291029A413B900DAF272 /* PresetLists_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetLists_TableViewCell.swift; sourceTree = "<group>"; };
+		03B29AA529A3E1B4009854DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		03B29AA729A3E1B4009854DA /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		03B29AA829A3E1B4009854DA /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		03B29AAA29A3E1B5009854DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03B29AAC29A3E1B5009854DA /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		03B29AAE29A3E1B5009854DA /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		03B29AAF29A3E1B5009854DA /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		03B29AB029A3E1B5009854DA /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		03B29AB129A3E1B5009854DA /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		03B29AB229A3E1B5009854DA /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		03B29AB329A3E1B5009854DA /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		03B29AB429A3E1B5009854DA /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		03B29AB529A3E1B5009854DA /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		03B29ABA29A3E1B6009854DA /* bleep-safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bleep-safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B29ABD29A3E1B6009854DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03B29ABF29A3E1B6009854DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03B29AC229A3E1B6009854DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03B29AC529A3E1B6009854DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03B29AC729A3E1B6009854DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B29ACC29A3E1B6009854DA /* bleep-safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bleep-safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B29ACE29A3E1B6009854DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03B29AD129A3E1B6009854DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03B29AD329A3E1B6009854DA /* bleep-safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "bleep-safari.entitlements"; sourceTree = "<group>"; };
+		03B29AD829A3E1B6009854DA /* bleep-safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bleep-safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B29ADD29A3E1B6009854DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B29AE229A3E1B6009854DA /* bleep-safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bleep-safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B29AE729A3E1B6009854DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B29AE829A3E1B6009854DA /* bleep-safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "bleep-safari.entitlements"; sourceTree = "<group>"; };
+		03D1C00629B7E2C900F06669 /* Tutorial_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B29AB729A3E1B6009854DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B29AC929A3E1B6009854DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B29AD529A3E1B6009854DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B29ADF29A3E1B6009854DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B29A9D29A3E1B4009854DA = {
+			isa = PBXGroup;
+			children = (
+				039F1B3329A3ED9A00A18C99 /* bleep-safari Extension (iOS).entitlements */,
+				039F1B3229A3ED5600A18C99 /* bleep-safari (iOS).entitlements */,
+				03B29AA229A3E1B4009854DA /* Shared (App) */,
+				03B29AAB29A3E1B5009854DA /* Shared (Extension) */,
+				03B29ABC29A3E1B6009854DA /* iOS (App) */,
+				03B29ACD29A3E1B6009854DA /* macOS (App) */,
+				03B29ADC29A3E1B6009854DA /* iOS (Extension) */,
+				03B29AE629A3E1B6009854DA /* macOS (Extension) */,
+				03B29ABB29A3E1B6009854DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03B29AA229A3E1B4009854DA /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				03B29AAA29A3E1B5009854DA /* Assets.xcassets */,
+				039F1B3829A4045300A18C99 /* List.swift */,
+				03A59EE929A500990074F4DB /* ListManager.swift */,
+				03B29AA329A3E1B4009854DA /* Resources */,
+				0326100B29A7AF30000D515A /* LogManager.swift */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		03B29AA329A3E1B4009854DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03B29AA429A3E1B4009854DA /* Main.html */,
+				03B29AA829A3E1B4009854DA /* Script.js */,
+				03B29AA729A3E1B4009854DA /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		03B29AAB29A3E1B5009854DA /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				03B29AAD29A3E1B5009854DA /* Resources */,
+				03B29AAC29A3E1B5009854DA /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		03B29AAD29A3E1B5009854DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03B29AAE29A3E1B5009854DA /* _locales */,
+				03B29AB129A3E1B5009854DA /* background.js */,
+				03B29AB229A3E1B5009854DA /* content.js */,
+				03B29AAF29A3E1B5009854DA /* images */,
+				03B29AB029A3E1B5009854DA /* manifest.json */,
+				03B29AB429A3E1B5009854DA /* popup.css */,
+				03B29AB329A3E1B5009854DA /* popup.html */,
+				03B29AB529A3E1B5009854DA /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		03B29ABB29A3E1B6009854DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03B29ABA29A3E1B6009854DA /* bleep-safari.app */,
+				03B29ACC29A3E1B6009854DA /* bleep-safari.app */,
+				03B29AD829A3E1B6009854DA /* bleep-safari Extension.appex */,
+				03B29AE229A3E1B6009854DA /* bleep-safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03B29ABC29A3E1B6009854DA /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				03B29ABD29A3E1B6009854DA /* AppDelegate.swift */,
+				039F1B3629A3F0B200A18C99 /* Filters_TableViewCell.swift */,
+				039F1B2D29A3E73600A18C99 /* Filters_TableViewController.swift */,
+				034AF0AA29A56DB400EE4E64 /* FilterStyle_TableViewController.swift */,
+				03B29AC729A3E1B6009854DA /* Info.plist */,
+				03B29AC129A3E1B6009854DA /* LaunchScreen.storyboard */,
+				03B29AC429A3E1B6009854DA /* Main.storyboard */,
+				03B2291029A413B900DAF272 /* PresetLists_TableViewCell.swift */,
+				03B2290E29A4113400DAF272 /* PresetLists_TableViewController.swift */,
+				03B29ABF29A3E1B6009854DA /* SceneDelegate.swift */,
+				039F1B2F29A3E86C00A18C99 /* Settings_TableViewController.swift */,
+				0331B39029A5786B009BB181 /* Statistics_ViewController.swift */,
+				03D1C00629B7E2C900F06669 /* Tutorial_ViewController.swift */,
+				0395931D29A438510020813A /* ViewList_ViewController.swift */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		03B29ACD29A3E1B6009854DA /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				03B29ACE29A3E1B6009854DA /* AppDelegate.swift */,
+				03B29AD329A3E1B6009854DA /* bleep-safari.entitlements */,
+				030D41DF29BFA61A0050ABED /* Filters_SplitViewController.swift */,
+				030D41DD29BF96ED0050ABED /* FiltersMenu_TableCellView.swift */,
+				030D41DB29BF96430050ABED /* FiltersMenu_ViewController.swift */,
+				03B29AD029A3E1B6009854DA /* Main.storyboard */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		03B29ADC29A3E1B6009854DA /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				03B29ADD29A3E1B6009854DA /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		03B29AE629A3E1B6009854DA /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				03B29AE729A3E1B6009854DA /* Info.plist */,
+				03B29AE829A3E1B6009854DA /* bleep-safari.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03B29AB929A3E1B6009854DA /* bleep-safari (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B29B0D29A3E1B6009854DA /* Build configuration list for PBXNativeTarget "bleep-safari (iOS)" */;
+			buildPhases = (
+				03B29AB629A3E1B6009854DA /* Sources */,
+				03B29AB729A3E1B6009854DA /* Frameworks */,
+				03B29AB829A3E1B6009854DA /* Resources */,
+				03B29B0C29A3E1B6009854DA /* Embed Foundation Extensions */,
+				0395932129A44E1D0020813A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B29ADB29A3E1B6009854DA /* PBXTargetDependency */,
+			);
+			name = "bleep-safari (iOS)";
+			productName = "bleep-safari (iOS)";
+			productReference = 03B29ABA29A3E1B6009854DA /* bleep-safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03B29ACB29A3E1B6009854DA /* bleep-safari (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B29B1429A3E1B6009854DA /* Build configuration list for PBXNativeTarget "bleep-safari (macOS)" */;
+			buildPhases = (
+				03B29AC829A3E1B6009854DA /* Sources */,
+				03B29AC929A3E1B6009854DA /* Frameworks */,
+				03B29ACA29A3E1B6009854DA /* Resources */,
+				03B29B1329A3E1B6009854DA /* Embed Foundation Extensions */,
+				0395932029A44E180020813A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B29AE529A3E1B6009854DA /* PBXTargetDependency */,
+			);
+			name = "bleep-safari (macOS)";
+			productName = "bleep-safari (macOS)";
+			productReference = 03B29ACC29A3E1B6009854DA /* bleep-safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03B29AD729A3E1B6009854DA /* bleep-safari Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B29B0929A3E1B6009854DA /* Build configuration list for PBXNativeTarget "bleep-safari Extension (iOS)" */;
+			buildPhases = (
+				03B29AD429A3E1B6009854DA /* Sources */,
+				03B29AD529A3E1B6009854DA /* Frameworks */,
+				03B29AD629A3E1B6009854DA /* Resources */,
+				0395931F29A44E120020813A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bleep-safari Extension (iOS)";
+			productName = "bleep-safari Extension (iOS)";
+			productReference = 03B29AD829A3E1B6009854DA /* bleep-safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		03B29AE129A3E1B6009854DA /* bleep-safari Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B29B1029A3E1B6009854DA /* Build configuration list for PBXNativeTarget "bleep-safari Extension (macOS)" */;
+			buildPhases = (
+				03B29ADE29A3E1B6009854DA /* Sources */,
+				03B29ADF29A3E1B6009854DA /* Frameworks */,
+				03B29AE029A3E1B6009854DA /* Resources */,
+				039F1B3129A3EA1F00A18C99 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bleep-safari Extension (macOS)";
+			productName = "bleep-safari Extension (macOS)";
+			productReference = 03B29AE229A3E1B6009854DA /* bleep-safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03B29A9E29A3E1B4009854DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					03B29AB929A3E1B6009854DA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					03B29ACB29A3E1B6009854DA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					03B29AD729A3E1B6009854DA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					03B29AE129A3E1B6009854DA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 03B29AA129A3E1B4009854DA /* Build configuration list for PBXProject "bleep-safari" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03B29A9D29A3E1B4009854DA;
+			productRefGroup = 03B29ABB29A3E1B6009854DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03B29AB929A3E1B6009854DA /* bleep-safari (iOS) */,
+				03B29ACB29A3E1B6009854DA /* bleep-safari (macOS) */,
+				03B29AD729A3E1B6009854DA /* bleep-safari Extension (iOS) */,
+				03B29AE129A3E1B6009854DA /* bleep-safari Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03B29AB829A3E1B6009854DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B29AC329A3E1B6009854DA /* LaunchScreen.storyboard in Resources */,
+				03B29AE929A3E1B6009854DA /* Main.html in Resources */,
+				03B29AEF29A3E1B6009854DA /* Script.js in Resources */,
+				03B29AF329A3E1B6009854DA /* Assets.xcassets in Resources */,
+				03B29AC629A3E1B6009854DA /* Main.storyboard in Resources */,
+				03B29AED29A3E1B6009854DA /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B29ACA29A3E1B6009854DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B29AEE29A3E1B6009854DA /* Style.css in Resources */,
+				03B29AD229A3E1B6009854DA /* Main.storyboard in Resources */,
+				03B29AF029A3E1B6009854DA /* Script.js in Resources */,
+				03B29AF429A3E1B6009854DA /* Assets.xcassets in Resources */,
+				03B29AEA29A3E1B6009854DA /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B29AD629A3E1B6009854DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B29AFD29A3E1B6009854DA /* background.js in Resources */,
+				03B29B0329A3E1B6009854DA /* popup.css in Resources */,
+				03B29B0129A3E1B6009854DA /* popup.html in Resources */,
+				03B29AF929A3E1B6009854DA /* images in Resources */,
+				03B29AFB29A3E1B6009854DA /* manifest.json in Resources */,
+				03B29AF729A3E1B6009854DA /* _locales in Resources */,
+				03B29AFF29A3E1B6009854DA /* content.js in Resources */,
+				03B29B0529A3E1B6009854DA /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B29AE029A3E1B6009854DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B29AFE29A3E1B6009854DA /* background.js in Resources */,
+				03B29B0429A3E1B6009854DA /* popup.css in Resources */,
+				03B29B0229A3E1B6009854DA /* popup.html in Resources */,
+				03B29AFA29A3E1B6009854DA /* images in Resources */,
+				03B29AFC29A3E1B6009854DA /* manifest.json in Resources */,
+				03B29AF829A3E1B6009854DA /* _locales in Resources */,
+				03B29B0029A3E1B6009854DA /* content.js in Resources */,
+				03B29B0629A3E1B6009854DA /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0395931F29A44E120020813A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint --fix && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		0395932029A44E180020813A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint --fix && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		0395932129A44E1D0020813A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint --fix && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		039F1B3129A3EA1F00A18C99 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint --fix && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B29AB629A3E1B6009854DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B2290F29A4113400DAF272 /* PresetLists_TableViewController.swift in Sources */,
+				034AF0AB29A56DB400EE4E64 /* FilterStyle_TableViewController.swift in Sources */,
+				03B2291129A413B900DAF272 /* PresetLists_TableViewCell.swift in Sources */,
+				0395931E29A438510020813A /* ViewList_ViewController.swift in Sources */,
+				03D1C00729B7E2C900F06669 /* Tutorial_ViewController.swift in Sources */,
+				039F1B3029A3E86C00A18C99 /* Settings_TableViewController.swift in Sources */,
+				0331B39129A5786B009BB181 /* Statistics_ViewController.swift in Sources */,
+				039F1B3929A4045300A18C99 /* List.swift in Sources */,
+				039F1B2E29A3E73600A18C99 /* Filters_TableViewController.swift in Sources */,
+				03B29ABE29A3E1B6009854DA /* AppDelegate.swift in Sources */,
+				0326100C29A7AF30000D515A /* LogManager.swift in Sources */,
+				03A59EEA29A500990074F4DB /* ListManager.swift in Sources */,
+				03B29AC029A3E1B6009854DA /* SceneDelegate.swift in Sources */,
+				039F1B3729A3F0B200A18C99 /* Filters_TableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B29AC829A3E1B6009854DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0326100D29A7AF30000D515A /* LogManager.swift in Sources */,
+				030D41DC29BF96430050ABED /* FiltersMenu_ViewController.swift in Sources */,
+				030D41E029BFA61A0050ABED /* Filters_SplitViewController.swift in Sources */,
+				030D41DE29BF96ED0050ABED /* FiltersMenu_TableCellView.swift in Sources */,
+				03B29ACF29A3E1B6009854DA /* AppDelegate.swift in Sources */,
+				039F1B3A29A4045300A18C99 /* List.swift in Sources */,
+				03A59EEB29A500990074F4DB /* ListManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B29AD429A3E1B6009854DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0326100E29A7AF30000D515A /* LogManager.swift in Sources */,
+				03B29AF529A3E1B6009854DA /* SafariWebExtensionHandler.swift in Sources */,
+				03A59EEC29A500990074F4DB /* ListManager.swift in Sources */,
+				039F1B3B29A4045300A18C99 /* List.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B29ADE29A3E1B6009854DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0326100F29A7AF30000D515A /* LogManager.swift in Sources */,
+				03B29AF629A3E1B6009854DA /* SafariWebExtensionHandler.swift in Sources */,
+				03A59EED29A500990074F4DB /* ListManager.swift in Sources */,
+				039F1B3C29A4045300A18C99 /* List.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03B29ADB29A3E1B6009854DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03B29AD729A3E1B6009854DA /* bleep-safari Extension (iOS) */;
+			targetProxy = 03B29ADA29A3E1B6009854DA /* PBXContainerItemProxy */;
+		};
+		03B29AE529A3E1B6009854DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03B29AE129A3E1B6009854DA /* bleep-safari Extension (macOS) */;
+			targetProxy = 03B29AE429A3E1B6009854DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03B29AA429A3E1B4009854DA /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B29AA529A3E1B4009854DA /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		03B29AC129A3E1B6009854DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B29AC229A3E1B6009854DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		03B29AC429A3E1B6009854DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B29AC529A3E1B6009854DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03B29AD029A3E1B6009854DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B29AD129A3E1B6009854DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03B29B0729A3E1B6009854DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03B29B0829A3E1B6009854DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		03B29B0A29A3E1B6009854DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "bleep-safari Extension (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EDN46296JR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bleep Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "erikdvlp.bleep-safari.Extension";
+				PRODUCT_NAME = "bleep-safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03B29B0B29A3E1B6009854DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "bleep-safari Extension (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EDN46296JR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bleep Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "erikdvlp.bleep-safari.Extension";
+				PRODUCT_NAME = "bleep-safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03B29B0E29A3E1B6009854DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "bleep-safari (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EDN46296JR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Bleep;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "erikdvlp.bleep-safari";
+				PRODUCT_NAME = "bleep-safari";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03B29B0F29A3E1B6009854DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "bleep-safari (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EDN46296JR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Bleep;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "erikdvlp.bleep-safari";
+				PRODUCT_NAME = "bleep-safari";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03B29B1129A3E1B6009854DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/bleep-safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = EDN46296JR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "bleep-safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "erikdvlp.bleep-safari.Extension";
+				PRODUCT_NAME = "bleep-safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		03B29B1229A3E1B6009854DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/bleep-safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = EDN46296JR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "bleep-safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "erikdvlp.bleep-safari.Extension";
+				PRODUCT_NAME = "bleep-safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		03B29B1529A3E1B6009854DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/bleep-safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = EDN46296JR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bleep;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "erikdvlp.bleep-safari";
+				PRODUCT_NAME = "bleep-safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		03B29B1629A3E1B6009854DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/bleep-safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = EDN46296JR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bleep;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "erikdvlp.bleep-safari";
+				PRODUCT_NAME = "bleep-safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B29AA129A3E1B4009854DA /* Build configuration list for PBXProject "bleep-safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B29B0729A3E1B6009854DA /* Debug */,
+				03B29B0829A3E1B6009854DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B29B0929A3E1B6009854DA /* Build configuration list for PBXNativeTarget "bleep-safari Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B29B0A29A3E1B6009854DA /* Debug */,
+				03B29B0B29A3E1B6009854DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B29B0D29A3E1B6009854DA /* Build configuration list for PBXNativeTarget "bleep-safari (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B29B0E29A3E1B6009854DA /* Debug */,
+				03B29B0F29A3E1B6009854DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B29B1029A3E1B6009854DA /* Build configuration list for PBXNativeTarget "bleep-safari Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B29B1129A3E1B6009854DA /* Debug */,
+				03B29B1229A3E1B6009854DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B29B1429A3E1B6009854DA /* Build configuration list for PBXNativeTarget "bleep-safari (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B29B1529A3E1B6009854DA /* Debug */,
+				03B29B1629A3E1B6009854DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03B29A9E29A3E1B4009854DA /* Project object */;
+}
